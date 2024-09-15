@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- For Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Novera</title>
+</head>
+<body>
+<!--Menu -->
+    <header>
+        <div class="logo">
+            <ion-icon name="pricetag"></ion-icon>
+            <p><span class="text">Nov</span>era</p>
+        </div>
+        <div class="search">
+            <input type="text" name="search" placeholder="Pesquisa...">
+            <ion-icon name="search-outline"></ion-icon>
+        </div>
+        <div class="icon_menu">
+            <ion-icon name="menu-outline" class="menu_icon"></ion-icon>
+            <ion-icon name="cart-outline" class="cart_icon"></ion-icon>
+            <ion-icon name="person-outline" class="user_icon"></ion-icon>
+            <ion-icon name="search-outline" class="search_icon"></ion-icon>
+        </div>
+        <div class="container_icon">
+            <nav>
+                <div class="cancel"><ion-icon name="close-outline"></ion-icon></div>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="/">Sobre nós</a></li>
+                    <li><a href="/">Nossa equipe</a></li>
+                    <li><a href="/">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="cart_container">
+                <div class="cancel"><ion-icon name="close-outline"></ion-icon></div>
+                <div class="cart_content">
+                    <div class="cart">
+                        <div class="image"><img src="assets/images/product-2.jpg" alt=""></div>
+                        <div class="data_cart">
+                            <h3 class="name_product">Acessorios de casa</h3>
+                            <p class="price">1 X R$ 2,000</p>
+                        </div>
+                        <div class="cancel_cart"><ion-icon name="close-outline"></ion-icon></div>
+                    </div>
+                    <div class="cart">
+                        <div class="image"><img src="assets/images/product-1.jpg" alt=""></div>
+                        <div class="data_cart">
+                            <h3 class="name_product">Acessorios de casa</h3>
+                            <p class="price">1 X R$ 2,000</p>
+                        </div>
+                        <div class="cancel_cart"><ion-icon name="close-outline"></ion-icon></div>
+                    </div>
+                    <div class="cart">
+                        <div class="image"><img src="assets/images/product-3.jpg" alt=""></div>
+                        <div class="data_cart">
+                            <h3 class="name_product">Acessorios de casa</h3>
+                            <p class="price">1 X R$ 2,000</p>
+                        </div>
+                        <div class="cancel_cart"><ion-icon name="close-outline"></ion-icon></div>
+                    </div>
+                    <div class="cart">
+                        <div class="image"><img src="assets/images/product-4.jpg" alt=""></div>
+                        <div class="data_cart">
+                            <h3 class="name_product">Acessorios de casa</h3>
+                            <p class="price">1 X R$ 2,000</p>
+                        </div>
+                        <div class="cancel_cart"><ion-icon name="close-outline"></ion-icon></div>
+                    </div>
+                </div>
+                <div class="price_total">
+                    Total: <span>R$ 8,000.00</span>
+                </div>
+                <a href="#" class="btn">Pagar</a>
+            </div>
+            <div class="user_container">
+                <div class="cancel"><ion-icon name="close-outline"></ion-icon></div>
+                <div class="user">
+                    <h3 class="title_form">Login</h3>
+                    <form action="" method="">
+                        <input type="email" name="email" id="email" placeholder="Entre seu email">
+                        <input type="password" name="password" id="password" placeholder="Entre sua senha">
+                        <input type="submit" value="Login" class="btn">
+                    </form>
+                    <p>Esqueceu a senha? <a href="#">Clique aqui</a></p>
+                    <p>Não tem conta? <a href="#">Crie uma</a></p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!-- Home -->
+    <div class="home">
+        <div class="swiper home_container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide home_content">
+                    <div class="text wow zoomIn" data-wow-delay="1s">
+                        <h4>Novidades</h4>
+                        <h3 class="title">Cadeira Flexível</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Fugit debitis officia, dicta nostrum neque adipisci.
+                        </p>
+                        <a href="#" class="btn">Compre agora</a>
+                    </div>
+                    <div class="image wow bounceInRight" data-wow-delay="0.5s"><img src="assets/images/home-img-1.png" alt=""></div>
+                </div>
+                <div class="swiper-slide home_content">
+                    <div class="text" >
+                        <h4>Novidades</h4>
+                        <h3 class="title">Sofá confortável</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Fugit debitis officia, dicta nostrum neque adipisci voluptatibus 
+                            culpa! Explicabo, animi ratione.
+                        </p>
+                        <a href="#" class="btn">Compre agora</a>
+                    </div>
+                    <div class="image"><img src="assets/images/home-img-2.png" alt=""></div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+
+    <!-- Categories -->
+    <section class="categories_section">
+        <div class="heading_title">
+            <h3>Categorias</h3>
+            <a href="#">Ver tudo >></a>
+        </div>
+        
+        <div class="categories_container">
+            <div class="categorie">
+                <img src="assets/images/icon-1.png" alt="">
+                <p>Sofá de casa</p>
+            </div>
+            <div class="categorie">
+                <img src="assets/images/icon-2.png" alt="">
+                <p>Mesa de trabalho</p>
+            </div>
+            <div class="categorie">
+                <img src="assets/images/icon-3.png" alt="">
+                <p>Mesa de canto</p>
+            </div>
+            <div class="categorie">
+                <img src="assets/images/icon-4.png" alt="">
+                <p>Cadeira de escritório</p>
+            </div>
+            <div class="categorie">
+                <img src="assets/images/icon-5.png" alt="">
+                <p>Guarda-roupa</p>
+            </div>
+        </div>
+    </section>
+
+<!-- Products -->
+    <section class="products_section">
+        <div class="heading_title">
+            <h3>Produtos</h3>
+            <a href="#">Ver tudo >></a>
+        </div>
+        <div class="products_container">
+            <div class="product">
+                <div class="image">
+                    <img src="assets/images/product-1.jpg" alt="">
+                    <div class="interaction_product">
+                        <ion-icon name="cart-outline"></ion-icon>
+                        <ion-icon name="heart-outline"></ion-icon>
+                        <ion-icon name="eye-outline" class="eye"></ion-icon>
+                        <ion-icon name="eye-off-outline" class="eye_off"></ion-icon>
+                    </div>
+                </div>
+                <p class="price">R$ 2.000</p>
+                <h3>Acessórios de casa</h3>
+                <div class="evaluation">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    (50)
+                </div>
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="assets/images/product-2.jpg" alt="">
+                    <div class="interaction_product">
+                        <ion-icon name="cart-outline"></ion-icon>
+                        <ion-icon name="heart-outline"></ion-icon>
+                        <ion-icon name="eye-outline" class="eye"></ion-icon>
+                        <ion-icon name="eye-off-outline" class="eye_off"></ion-icon>
+                    </div>
+                </div>
+                <p class="price">R$ 2.000</p>
+                <h3>Acessórios de casa</h3>
+                <div class="evaluation">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    (50)
+                </div>
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="assets/images/product-3.jpg" alt="">
+                    <div class="interaction_product">
+                        <ion-icon name="cart-outline"></ion-icon>
+                        <ion-icon name="heart-outline"></ion-icon>
+                        <ion-icon name="eye-outline" class="eye"></ion-icon>
+                        <ion-icon name="eye-off-outline" class="eye_off"></ion-icon>
+                    </div>
+                </div>
+                <p class="price">R$ 2.000</p>
+                <h3>Acessórios de casa</h3>
+                <div class="evaluation">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    (50)
+                </div>
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="assets/images/product-4.jpg" alt="">
+                    <div class="interaction_product">
+                        <ion-icon name="cart-outline"></ion-icon>
+                        <ion-icon name="heart-outline"></ion-icon>
+                        <ion-icon name="eye-outline" class="eye"></ion-icon>
+                        <ion-icon name="eye-off-outline" class="eye_off"></ion-icon>
+                    </div>
+                </div>
+                <p class="price">R$ 2.000</p>
+                <h3>Acessórios de casa</h3>
+                <div class="evaluation">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    (50)
+                </div>
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="assets/images/product-5.jpg" alt="">
+                    <div class="interaction_product">
+                        <ion-icon name="cart-outline"></ion-icon>
+                        <ion-icon name="heart-outline"></ion-icon>
+                        <ion-icon name="eye-outline" class="eye"></ion-icon>
+                        <ion-icon name="eye-off-outline" class="eye_off"></ion-icon>
+                    </div>
+                </div>
+                <p class="price">R$ 2.000</p>
+                <h3>Acessórios de casa</h3>
+                <div class="evaluation">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    (50)
+                </div>
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="assets/images/product-6.jpg" alt="">
+                    <div class="interaction_product">
+                        <ion-icon name="cart-outline"></ion-icon>
+                        <ion-icon name="heart-outline"></ion-icon>
+                        <ion-icon name="eye-outline" class="eye"></ion-icon>
+                        <ion-icon name="eye-off-outline" class="eye_off"></ion-icon>
+                    </div>
+                </div>
+                <p class="price">R$ 2.000</p>
+                <h3>Acessórios de casa</h3>
+                <div class="evaluation">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    (50)
+                </div>
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="assets/images/product-7.jpg" alt="">
+                    <div class="interaction_product">
+                        <ion-icon name="cart-outline"></ion-icon>
+                        <ion-icon name="heart-outline"></ion-icon>
+                        <ion-icon name="eye-outline" class="eye"></ion-icon>
+                        <ion-icon name="eye-off-outline" class="eye_off"></ion-icon>
+                    </div>
+                </div>
+                <p class="price">R$ 2.000</p>
+                <h3>Acessórios de casa</h3>
+                <div class="evaluation">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    (50)
+                </div>
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="assets/images/product-8.jpg" alt="">
+                    <div class="interaction_product">
+                        <ion-icon name="cart-outline"></ion-icon>
+                        <ion-icon name="heart-outline"></ion-icon>
+                        <ion-icon name="eye-outline" class="eye"></ion-icon>
+                        <ion-icon name="eye-off-outline" class="eye_off"></ion-icon>
+                    </div>
+                </div>
+                <p class="price">R$ 2.000</p>
+                <h3>Acessórios de casa</h3>
+                <div class="evaluation">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    (50)
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services_section">
+        <div class="heading_title">
+            <h3>Nossos serviços</h3>
+        </div>
+        
+        <div class="services_container">
+            <div class="service">
+                <img src="assets/images/serv-1.svg" alt="">
+                <h3>Venda de produtos</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Asperiores, officiis.
+                </p>
+                <a href="#" class="btn">Saiba mais</a>
+            </div>
+            <div class="service">
+                <img src="assets/images/serv-2.svg" alt="">
+                <h3>Design de Produto</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Asperiores, officiis.
+                </p>
+                <a href="#" class="btn">Saiba mais</a>
+            </div>
+            <div class="service">
+                <img src="assets/images/serv-3.svg" alt="">
+                <h3>Suporte 24/7</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Asperiores, officiis.
+                </p>
+                <a href="#" class="btn">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+
+<!-- Advantages -->
+    <section class="pourcent_off">
+        <div class="content_off">
+            <img src="assets/images/banner-1.jpg" alt="">
+            <div class="data_off">
+                <span>Oferta limitada</span>
+                <h3 class="title_off">50% de desconto</h3>
+                <a href="#" class="btn">Compre agora</a>
+            </div>
+        </div>
+        <div class="content_off">
+            <img src="assets/images/banner-2.jpg" alt="">
+            <div class="data_off">
+                <span>Oferta limitada</span>
+                <h3 class="title_off">50% de desconto</h3>
+                <a href="#" class="btn">Compre agora</a>
+            </div>
+        </div>
+        <div class="content_off">
+            <img src="assets/images/banner-3.jpg" alt="">
+            <div class="data_off">
+                <span>Oferta limitada</span>
+                <h3 class="title_off">50% de desconto</h3>
+                <a href="#" class="btn">Compre agora</a>
+            </div>
+        </div>
+    </section>
+
+<!-- Contact -->
+
+<section id="contact" class="contact-section">
+    <div class="heading_title">
+        <h3>Contato</h3>
+    </div>
+
+    <div class="contact_container">
+        <div class="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1767.1075420696034!2d-52.26810058084527!3d-27.648816462389227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1suri!5e0!3m2!1spt-BR!2sbr!4v1726440457377!5m2!1spt-BR!2sbr" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <form id="send_message">
+            <div>
+                <input type="text" placeholder="Entre seu nome" id="name" />
+                <span class="error" id="nameError"></span>
+            </div>
+            <div>
+                <input type="email" placeholder="Entre seu email" id="email" required />
+            </div>
+            <div>
+                <textarea placeholder="Entre sua mensagem" id="message"></textarea>
+                <span class="error" id="messageError"></span>
+            </div>
+            <input type="submit" value="Enviar" />
+        </form>
+    </div>
+
+</section>
+
+<!-- Footer -->
+    <footer class="footer">
+        <div class="container_footer wow zoomIn" data-wow-delay=".5s">
+            <div class="links">
+                <h3>Links rápidos</h3>
+                <ul>
+                    <li>
+                        <a href="">
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                            Inicio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                            Sobre nós
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                            Nossa equipe
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="links">
+                <h3>Links extras</h3>
+                <ul>
+                    <li>
+                        <a href="">
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                            Meus pedidos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                            Minha conta
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                            Favoritos
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="links">
+                <h3>Redes socias</h3>
+                <ul>
+                    <li>
+                        <a href="">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                            facebook
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                            instagram
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                            linkedIn
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="newsletter">
+                <h3>Newsletter</h3>
+                <p>Fique informado dos novos produtos</p>
+                <input type="email" name="" id="" placeholder="Entre seu email"><br>
+                <a href="#" class="btn">Inscrever-se</a>
+            </div>
+        </div>
+        <p class="creation"> Criado por Judelin Inélus - Todos diretos reservados</p>
+    </footer>
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- For swiper -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- For animate scrolling the web page -->
+    <script src="js/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
