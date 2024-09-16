@@ -7,14 +7,7 @@ let menu=document.querySelector('.menu_icon'),
     container=document.querySelector('.container_icon'),
     cancel=document.querySelectorAll('.cancel'),
     search_icon=document.querySelector('.search_icon'),
-    search=document.querySelector('.search'),
-    contact_name = document.querySelector("#name"),
-    contact_email = document.querySelector("#email"),
-    contact_message = document.querySelector("#message"),
-    alert_name = document.querySelector(".name"),
-    alert_email = document.querySelector(".email"),
-    alert_message = document.querySelector(".message"),
-    formSubmit = document.querySelector(".send_message")
+    search=document.querySelector('.search');
 
 menu.onclick=()=>{
     container.classList.add('active');
@@ -46,7 +39,6 @@ document.getElementById('send_message').addEventListener('submit', function(even
     let isValid = true;
 
     document.getElementById('nameError').textContent = '';
-    document.getElementById('emailError').textContent = '';
     document.getElementById('messageError').textContent = '';
 
     const name = document.getElementById('name').value.trim();
@@ -54,6 +46,7 @@ document.getElementById('send_message').addEventListener('submit', function(even
         document.getElementById('nameError').textContent = 'Por favor, insira seu nome.';
         isValid = false;
     }
+
 
     const message = document.getElementById('message').value.trim();
     if (message === '') {
